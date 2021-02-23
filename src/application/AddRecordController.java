@@ -109,6 +109,9 @@ public class AddRecordController {
 	public void onCancelClicked() {
 		Stage stage = (Stage) btnCancel.getScene().getWindow();
 		stage.close();
+		
+		
+		System.out.println("Testing");
 	}
 
 }
